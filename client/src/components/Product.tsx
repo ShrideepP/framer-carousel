@@ -1,4 +1,4 @@
-import Star from './icons/Star';
+import Star from './Star';
 
 interface IProduct {
   id: number;
