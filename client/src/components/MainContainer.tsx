@@ -20,7 +20,7 @@ interface IProduct {
 
 // fetching products
 async function fetchProducts() {
-  return await axios.get(`http://localhost:3000/api/products`);
+  return await axios.get(`https://api-framer-carousel.vercel.app/api/products`);
 }
 
 export default function MainContainer() {

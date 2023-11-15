@@ -7,7 +7,7 @@ export default function SkeletonLoading() {
       {skeletons.map((_, index) => (
         <div
           key={index}
-          className="min-w-[15rem] w-60 h-[21rem] animate-pulse rounded-xl bg-neutral-800"
+          className="min-w-[15rem] w-60 h-80 animate-pulse rounded-xl bg-neutral-800"
         />
       ))}
     </>

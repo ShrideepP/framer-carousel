@@ -28,6 +28,7 @@ export default function Product({ product }: ProductProps) {
         <img
           alt={product.name}
           src={product.image}
+          loading="lazy"
           className="w-full h-full absolute inset-0 -z-10 object-cover object-center select-none"
         />
         <div className="w-full h-full relative z-0" />
